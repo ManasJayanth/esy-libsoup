@@ -1,5 +1,5 @@
 {
-  "checksum": "f23cac28efb8cb6df880f02dabf132eb",
+  "checksum": "011244ba2a3dbb270e8715e6f38c6abd",
   "root": "esy-libsoup@link-dev:./package.json",
   "node": {
     "pkg-config@github:prometheansacrifice/yarn-pkg-config#cc5b4f913cccee781461b16d49b902c84727e7ed@d41d8cd9": {
@@ -102,6 +102,24 @@
       "dependencies": [],
       "devDependencies": []
     },
+    "esy-sqlite@github:prometheansacrifice/esy-sqlite#c68d991d4214afe97cf285a4a87d150ea820023a@d41d8cd9": {
+      "id":
+        "esy-sqlite@github:prometheansacrifice/esy-sqlite#c68d991d4214afe97cf285a4a87d150ea820023a@d41d8cd9",
+      "name": "esy-sqlite",
+      "version":
+        "github:prometheansacrifice/esy-sqlite#c68d991d4214afe97cf285a4a87d150ea820023a",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-sqlite#c68d991d4214afe97cf285a4a87d150ea820023a"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
     "esy-python@github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343@d41d8cd9": {
       "id":
         "esy-python@github:esy-packages/esy-python#22a58395ae687852fee64ff6e752bd1354a4f343@d41d8cd9",
@@ -121,16 +139,16 @@
       ],
       "devDependencies": []
     },
-    "esy-libxml2@github:prometheansacrifice/esy-libxml2#af3e7d9bb75e4fb392d32fdc05986238e35d96e2@d41d8cd9": {
+    "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9": {
       "id":
-        "esy-libxml2@github:prometheansacrifice/esy-libxml2#af3e7d9bb75e4fb392d32fdc05986238e35d96e2@d41d8cd9",
+        "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9",
       "name": "esy-libxml2",
       "version":
-        "github:prometheansacrifice/esy-libxml2#af3e7d9bb75e4fb392d32fdc05986238e35d96e2",
+        "github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f",
       "source": {
         "type": "install",
         "source": [
-          "github:prometheansacrifice/esy-libxml2#af3e7d9bb75e4fb392d32fdc05986238e35d96e2"
+          "github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f"
         ]
       },
       "overrides": [],
@@ -150,7 +168,8 @@
       "dependencies": [
         "ninja@github:prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae@d41d8cd9",
         "meson@github:prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce@d41d8cd9",
-        "esy-libxml2@github:prometheansacrifice/esy-libxml2#af3e7d9bb75e4fb392d32fdc05986238e35d96e2@d41d8cd9",
+        "esy-sqlite@github:prometheansacrifice/esy-sqlite#c68d991d4214afe97cf285a4a87d150ea820023a@d41d8cd9",
+        "esy-libxml2@github:prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f@d41d8cd9",
         "esy-glib@github:prometheansacrifice/esy-glib#3275b277ef7fb7237e4ef6b5f2153f97321700e6@d41d8cd9"
       ],
       "devDependencies": []

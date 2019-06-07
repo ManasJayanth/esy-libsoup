@@ -24,7 +24,8 @@
     "meson": "prometheansacrifice/esy-meson#dce5534b0acd7a2b85b5cee78e933796204e0cce",
     "ninja": "prometheansacrifice/esy-ninja#37fae9254002a02bb56c4b65b6fad54fcaae8bae",
     "esy-glib": "prometheansacrifice/esy-glib#3275b277ef7fb7237e4ef6b5f2153f97321700e6",
-    "esy-libxml2": "prometheansacrifice/esy-libxml2#af3e7d9bb75e4fb392d32fdc05986238e35d96e2"
+    "esy-sqlite": "prometheansacrifice/esy-sqlite#c68d991d4214afe97cf285a4a87d150ea820023a",
+    "esy-libxml2": "prometheansacrifice/esy-libxml2#ae308b734969ebcaabd2a3382034a5c9d7dc6b8f"
   },
   "resolutions": {}
 }
